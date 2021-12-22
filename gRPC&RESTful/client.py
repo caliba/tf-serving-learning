@@ -77,7 +77,7 @@ for epoch in range(1,lp_time):
     res = model.inference(img)
     time1 += time()-start1
     print(time()-start1)
-#print("gRPC")
+print("gRPC")
 for epoch in range(1,lp_time):
     start2 = time()
     model = PredictModelGrpc(model_name='clothing', input_name='flatten_input', output_name='dense_1', socket='0.0.0.0:8500')
