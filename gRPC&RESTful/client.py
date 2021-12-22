@@ -1,6 +1,6 @@
 # tf-serving 2.3.0
 # python client.py
-
+# docker docker run -p 8500:8500 -p 8501:8501 --mount type=bind,source=/home/ubuntu1804/Serving/model/clothing,target=/models/clothing -e MODEL_NAME=clothing -t tensorflow/serving:2.3.0 
 import numpy as np
 from PIL import Image
 import json
