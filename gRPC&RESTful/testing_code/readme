@@ -1,1 +1,4 @@
-https://medium.com/@avidaneran/tensorflow-serving-rest-vs-grpc-e8cef9d4ff62
+验证目标连接
+# https://medium.com/@avidaneran/tensorflow-serving-rest-vs-grpc-e8cef9d4ff62
+使用mnist进行验证，根据其client要求需要 mnist.pkl 文件
+编译连接 mnist_data_save.py 即可得到pkl文件。在此需注意，此时编译的python版本需要和日后解压的python版本保持一致，否则会出错。
